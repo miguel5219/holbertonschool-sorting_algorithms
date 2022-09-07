@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
-  * insertion_sort_list - function that sorts a double 
+  * insertion_sort_list - function that sorts a double
   * linked list of integers in ascending order
   * using the insertion sort algorithm
   * @list: double linked list to be sorted
