@@ -19,9 +19,9 @@ void middle_point(int *array, size_t size, int minor, int major)
 
 	pivot = array[major];
 
-	for (i = minor, i < major; i++)
+	for (i = minor; i < major; i++)
 	{
-		if (arra[i] > pivot)
+		if (array[i] > pivot)
 		{
 			for (j = i + 1; j <= major; j++)
 			{
